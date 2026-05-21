@@ -52,6 +52,7 @@ pip install pandas numpy yfinance statsmodels scipy matplotlib seaborn ruptures 
 
 All data downloaded via `yfinance` Python library:
 
+```
 | Variable | Ticker | Source |
 |---|---|---|
 | Brent Crude Oil | BZ=F | Yahoo Finance |
@@ -81,7 +82,7 @@ pip install pandas numpy yfinance statsmodels scipy matplotlib seaborn ruptures 
 
 3. Open and run the notebook:
 ```bash
-jupyter notebook Notebooks/Untitled0.ipynb
+jupyter notebook Notebooks/Oil_prices_vs_FX.ipynb
 ```
 
 4. Run all cells sequentially from top to bottom
@@ -95,8 +96,7 @@ from thesis figures if Yahoo Finance updates historical data.*
 
 If you use this code or methodology, please cite:
 
-Manhica, B. A. J. (2026). Asymmetric transmission of Brent crude oil price
-shocks into exchange rates: Evidence from developed and emerging economies.
+Manhica, B. A. J. (2026). Estimation of the Relationship between Oil prices and Exchange Rates 
 Master's thesis, HSE Saint Petersburg.
 
 
